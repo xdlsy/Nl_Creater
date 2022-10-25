@@ -30,7 +30,7 @@ void remove_const_input(MyNetlist* global_nl){
         }
         else if(mux->GetI1Pin() == const_one) // sel=0, out=d, sel=1, out=1
         {
-            int i = 1;
+            int j = 1;
         }
     }
 }
